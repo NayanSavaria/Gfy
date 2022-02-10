@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: #f4f8ff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin: 20px 10%;
+    justify-content: center;  
+   display: block;
+}
+.heading h1{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+   
+    margin: 20px;
+    padding: 12px;
+    display: block;
+}
+
+.heading p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    color: #3c4043;
+    margin: 20px;
+    justify-content: center;
+  text-align: center;
+    
+
+}
+
+.cards-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+    .cards{
+        background-color: #fff;
+        border-radius: 8px;
+        border-top: 4px solid #1a73e8;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        box-shadow: 0 1px 2px #9aa0a6, 0 1px 3px #dadce0;
+        box-sizing: border-box;
+        margin: 0px 10px 0px 0px;
+        padding: 16px;
+       
+
+    }
+.btn{
+    padding: 50px 0 0;
+    text-align: center;
+ 
+    justify-content: center;
+    margin: 20px;
+ 
+
+}
+
+.btn1{
+    display: inline-block;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2px 16px;
+    cursor: pointer;
+    margin: 8px;
+    color: #1a73e8;
+   border: 1px solid #1a73e8;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: #e5edf8;
+}
+
