@@ -5,13 +5,14 @@
 }
 
 .container{
-    background-color: #f4f8ff;
+   background-color: #f4f8ff;
     display: flex;
     flex-wrap: wrap;
-    width: 100%; 
-    margin: 20px 10%;
-    justify-content: center;  
-   display: block;
+    width: 100%;
+    /* margin: 20px 10%; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
 }
 .heading h1{
     font-size: 48px;
